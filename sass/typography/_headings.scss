@@ -1,3 +1,16 @@
 h1, h2, h3, h4, h5, h6 {
+    font-family: $font__head;
+    letter-spacing: 2px;
 	clear: both;
+}
+
+h1 {
+    letter-spacing: 3px;
+    @include font-size(3);
+    line-height: $font__line-height-pre;
+    text-shadow: 2px 2px #4B0082;
+    font-weight: bold;
+    a {
+        text-decoration: none;
+    }
 }

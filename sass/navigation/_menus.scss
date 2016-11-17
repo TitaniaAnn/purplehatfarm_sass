@@ -11,6 +11,19 @@
     background: -webkit-linear-gradient(top,  $color__background-nav 1%,$color__background-gradient-nav 40%,$color__background-gradient-nav 60%,$color__background-nav 99%);
     background: linear-gradient(to bottom,  $color__background-nav 1%,$color__background-gradient-nav 40%,$color__background-gradient-nav 60%,$color__background-nav 99%);
 
+    .menu-toggle {
+        padding: 5px;
+        margin-left: 10px;
+        color: rgba(255, 255, 255, 1);
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 15px/50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        background: $color__background-nav;
+        background: -moz-linear-gradient(top,  $color__background-nav 1%, $color__background-gradient-nav 40%, $color__background-gradient-nav 60%, $color__background-nav 99%);
+        background: -webkit-linear-gradient(top,  $color__background-nav 1%,$color__background-gradient-nav 40%,$color__background-gradient-nav 60%,$color__background-nav 99%);
+        background: linear-gradient(to bottom,  $color__background-nav 1%,$color__background-gradient-nav 40%,$color__background-gradient-nav 60%,$color__background-nav 99%);
+    }
     .menu {
         padding-left: 10px;
         padding-right: 10px;

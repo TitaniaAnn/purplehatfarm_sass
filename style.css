@@ -423,6 +423,18 @@ a:hover, a:active {
   background: linear-gradient(to bottom, #4b0082 1%, #da70d6 40%, #da70d6 60%, #4b0082 99%);
   /* Small menu. */
 }
+.main-navigation .menu-toggle {
+  padding: 5px;
+  margin-left: 10px;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px/50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #4b0082;
+  background: -moz-linear-gradient(top, #4b0082 1%, #da70d6 40%, #da70d6 60%, #4b0082 99%);
+  background: -webkit-linear-gradient(top, #4b0082 1%, #da70d6 40%, #da70d6 60%, #4b0082 99%);
+  background: linear-gradient(to bottom, #4b0082 1%, #da70d6 40%, #da70d6 60%, #4b0082 99%);
+}
 .main-navigation .menu {
   padding-left: 10px;
   padding-right: 10px;
